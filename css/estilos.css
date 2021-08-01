@@ -112,14 +112,20 @@ article#mapa{
 article#exposicoes{
     float:left;
     width: 310px;
-    margin: 15px 00 25px;
+    margin: 15px 0 25px 0;
+    font-size: 1.2em;
+    line-height:  2em;;
+    
 }
 
 article#historia{
     float:left;
     width: 310px;
-    margin: 15px 00 37px;
+    margin: 15px 0 37px 0;
+    font-size: 1.2em;
+    line-height: 2em;
 }
+
 
 h3{
     color: #227115;
@@ -147,14 +153,22 @@ input{
 
 input.campo{
     border: 1px solid #ada484;
+    margin-top: 10px;
 }
 
 input.botao{
    background: #9b9271;
+   margin-top: 20px;
    color: #fff;
    width: 100%;
    height: 40px;
    font-size:1.2em;
+}
+
+input.botao:hover{
+    
+    background: #cfbe7f;
+    cursor: pointer;
 }
 
 fieldset{
